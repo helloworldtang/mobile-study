@@ -13,6 +13,21 @@ mobile-study
 
 
 ##### tip:
+**error**
+```text
+git pull origin master
+warning: no common commits
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+From https://github.com/helloworldtang/mobile-study
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+fatal: refusing to merge unrelated histories
+
+```
+
 ```bash
 git init 
 git remote add origin https://github.com/helloworldtang/mobile-study.git
